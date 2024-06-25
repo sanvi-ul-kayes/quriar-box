@@ -23,8 +23,10 @@ const Service = () => {
         <div className="flex justify-between items-center">
           {/* ======================================== */}
           <div className="bg-white px-[60px] py-[49px] rounded-2xl w-[424px] ">
-            <div className="after:absolute after:content-[''] w-[max-content] after:left-0 after:bottom-0 rounded-[50%] bg-[#FFD078] relative">
-              <IoBagHandle className="text-[#F95C19] text-[55px] m-auto  " />
+            <div className="w-full flex justify-center">
+              <div className="after:content-[''] after:bg-[#ffaf0f6e] after:absolute after:h-[100%] after:rounded-full after:top-[-25px] after:w-[100%] w-[max-content] rounded-[50%] relative">
+                <IoBagHandle className="text-[#F95C19] text-[55px] m-auto " />
+              </div>
             </div>
             <h2 className="mt-[29px] mb-[32px] text-center text-[#464558] text-[25px]">
               Business Services
